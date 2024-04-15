@@ -1,0 +1,8 @@
+languagesystem DFLT dflt;
+languagesystem armi dflt;
+
+# Dummy GSUB table entry
+feature ccmp {
+    script armi;
+    sub space by space; 
+} ccmp;
